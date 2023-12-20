@@ -16,5 +16,9 @@ public class HelloWorldController {
 		return "I want to run from Jenkins : " + (LocalDateTime.now());
 	}
 	
+	@GetMapping("/message2")
+	public String messagefromApp2() {
+		return "I want to run from Jenkins(2) : " + (LocalDateTime.now());
+	}
 	
 }
