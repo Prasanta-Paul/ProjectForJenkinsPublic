@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.learnjenkins</groupId>
-	<artifactId>JavaProject</artifactId>
+	<artifactId>ProjectForJenkinsPublic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JavaProject</name>
-	<description>Demo project for Spring Boot</description>
+	<name>ProjectForJenkinsPublic</name>
+	<description>Demo project for Jenkins Public</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
