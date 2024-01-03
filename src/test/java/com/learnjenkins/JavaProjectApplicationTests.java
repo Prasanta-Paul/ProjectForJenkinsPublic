@@ -9,7 +9,21 @@ import org.springframework.boot.test.context.SpringBootTest;
 class JavaProjectApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testCase1() {
+		
+		assertEquals(10, 10);
+		
+	}
+	
+	@Test
+	void testCase2() {
+		
+		assertEquals(10, 10);
+		
+	}
+	
+	@Test
+	void testCase3() {
 		
 		assertEquals(10, 10);
 		
