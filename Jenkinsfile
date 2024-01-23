@@ -6,10 +6,10 @@ pipeline {
     }
     
     stages {
-        when {
-            changelog 'Ready to Build'
-        }
         stage("Peform Test") {
+            when {
+                changelog 'Ready to Build'
+            }
             steps {
                 echo "Hello"
             }
